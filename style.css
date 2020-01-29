@@ -1,0 +1,10 @@
+#pictureContainer{
+	/*overflow: auto;
+	background-size: cover;*/
+	height: 100%;
+	top: 12.5%;
+	position: fixed;
+    width: 100%;
+    left: 12.5%;
+    margin-left: -12.5%;
+}
