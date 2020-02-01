@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>BJS basic template</title>
-    <script src="scripts/model3d.js"></script>
     <title>Assignment1</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
     <style>
         body{
-            background-color:pink;
+            background-color:red;
+            animation: mymove 5s infinite;
             color:black;
         }
     </style>
+            </div>
 </head>
-<body>
+<body style="background-image:url(/images/yellow2.png); background-repeat: no-repeat; background-size: cover;"></body>
     <div id="app">
         <nav>
             <p>Quick Links</p>
@@ -23,32 +24,53 @@
                 <li><a href="https://www.bestesaylar.com/nyu" target="_blank">Portfolio</a></li>
             </ul>
         </nav>
+        <div class="square">
+            <style>
+.square {
+width: 80px;
+height: 80px;
+background: red;
+position: relative;
+animation: mymove 5s infinite;
+animation-timing-function: linear;
+}
+
+@keyframes mymove {
+from {left: 0px;}
+to {left: 1005px;}
+}
+            </style>
         <header>
         </div>
+        <div class="welcome">  
         <h1>Welcome to my Homepage</h1>
+    </div>
+    <div class="paragraph">
         <p>My name is Beste and I am excited to meet you!
             I was born and raised in Istanbul, Turkey where I had my bachelor degree in Business Administration, before
-            relocating to New York to pursue my master’s degree at NYU’s Interactive Telecommunications Program.
-            Coming from one cultural melting pot to another, I value experiences that broaden my horizons and allow me to
+            relocating to New York to pursue my master’s degree <mark>at NYU’s Interactive</mark> Telecommunications Program.
+            Coming from one cultural melting pot to another, I value <mark>experiences that</mark> broaden <mark>my</mark> horizons and allow me to
             develop myself both as an artist and a technologist. In my free time, I enjoy tinkering with new tools and
             techniques to bring my ideas to life, and I take pride in my ability to accelerate my learning curve and problem
             solve on-the-fly. I am self-disciplined when I work alone, also I thrive in collaborative work environments, that is
-            why I have collaborated with many professionals who have diverse set of skills and backgrounds. A lot of my
-            work is inspired by human centered portraiture, self awareness, perception and playfulness. I have various
-            technical skills including numerous programming languages such as Javascript, C/C++, node.js, CSS, physical
+            why I have <mark>collaborated</mark> with many professionals who have diverse set of skills and backgrounds. A lot of my
+            work is inspired by <mark>human centered</mark> portraiture, self awareness, perception and playfulness. I have various
+            technical skills including numerous <mark>programming</mark> languages such as <mark>Javascript, C/C++</mark>, node.js, CSS, physical
             computing, circuit design and computer vision tools.
-            My interests include creative coding, interactive installations, playing with and exploring new technology and
-            learning new tools and platforms. I am looking forward to dedicate my skills as a hard working and highly
-            motivated multidisciplinary artist/technologist.
-            After reviewing my resume, I hope you will agree that I am the type of competent and competitive candidate you
-            are looking for. I look forward to elaborating on how my specific skills and abilities will benefit your organization.
-            Please contact me at (917)442-7033 or via email at bs4073@nyu.edu to arrange for a convenient meeting time.<p>
-                <model-3d background-color="#ffffff" src="/images/head3d.glb"></model-3d>
+            My interests include <mark>creative coding</mark>, <mark>interactive</mark> installations, playing with and exploring new technology and
+            learning new tools and platforms. <mark>I am looking forward</mark> to dedicate my skills as a hard working and highly
+            motivated <mark>multidisciplinary</mark> artist/<mark>technologist.</mark>
+        <mark>After reviewing my</mark> resume, I hope you will agree that I am the type of competent and competitive candidate you
+    <mark>are looking for. I look forward</mark> to elaborating on how my specific skills and abilities will benefit your organization.
+            Please <mark>contact me at (917)442-7033 or</mark> via email at bs4073@nyu.edu to arrange for a convenient meeting time.</p>
         </div>
+    </div>
         </header>
         <main>
             <section>
-                <h2>Project Contents</h2>
+                <div class="contents">
+                <h2>Project Contents</h2></div>
+                <div class="contentsinside">
                 <ul>
                     <li><a href="https://www.bestesaylar.com/icm-blog" target="_blank">ICM</a></li>
                     <li><a href="https://www.bestesaylar.com/pcomp-blog" target="_blank">PCOMP</a></li>
@@ -56,6 +78,7 @@
                     <li><a href="https://www.bestesaylar.com/vlanguage-blog" target="_blank">VISUAL LANGUAGE</a></li>
                     <li><a href="https://www.bestesaylar.com/videosound-blog" target="_blank">VIDEO & SOUND</a></li>
                 </ul>
+                </div>
             </section>
             <section>
                 <h2>My favorite courses at ITP</h2>
@@ -74,10 +97,10 @@
             </section>
         </main>
     </div>
-    <div id="pictureContainer">
+    <!--<div id="pictureContainer">
         <div class="imgContainer" id="blues">
             <img src="/images/blues.png">
-</div>
+</div>-->
 
 </body>
 </html>

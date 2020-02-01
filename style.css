@@ -8,3 +8,34 @@
     left: 12.5%;
     margin-left: -12.5%;
 }
+.imgContainer{
+	width: 75%;
+    position: fixed;
+ }
+ .contents{
+  color: yellow;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-decoration-line: overline underline;
+    text-decoration-style: wavy;
+  }
+  .contentinside{
+    margin-bottom: 5%;
+  color: black;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  .welcome{
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px yellow;
+    text-align: center;
+    text-decoration: underline overline dotted red;
+    text-transform: uppercase;
+  }
+  p{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .paragraph{
+      margin: 2cm;
+      text-align: center;
+  }
